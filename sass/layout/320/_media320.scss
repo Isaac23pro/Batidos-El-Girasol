@@ -1,0 +1,458 @@
+@media (max-width:320px) {
+    .main-index .article-index {
+
+        .heading {
+            margin-block: 1.2rem;
+        }
+
+        .banner-principal {
+
+            .content-banner {
+                h1 {
+                    font-size: 1.5rem;
+                }
+            }
+
+            .banner-img {
+                right: -20px;
+                max-width: 200px;
+            }
+        }
+
+        .servicios .service-content {
+            grid-template-columns: 130px;
+        }
+
+        .products {
+            .products-content {
+                grid-template-columns: repeat(2, 110px);
+
+                .product-card {
+                    img {
+                        width: 50px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+
+        .info-adicional .box-container {
+            .info-ad {
+
+                h3 {
+                    font-size: .9rem;
+                }
+
+                p {
+                    font-size: 0.75rem;
+                    line-height: 1.6;
+                }
+
+                ion-icon {
+                    font-size: 1.4rem;
+                }
+            }
+        }
+
+        .banner-secundario-coffee .banner-secundario-content {
+            margin: 1.2rem;
+
+            h2 {
+                font-size: 1.1rem;
+            }
+
+            p {
+                font-size: .78rem;
+                margin-block: 1.3rem;
+            }
+        }
+
+        .footer .footer-bg {
+            .copyright {
+                font-size: 12px;
+            }
+        }
+    }
+
+    //Contacto
+    .bg-body-contact {
+        .nuestro-contact {
+            height: 80vh;
+
+            .box-info-contact {
+                h1 {
+                    font-size: 1.2rem;
+                }
+
+                .data {
+                    gap: 13px;
+
+                    p {
+                        font-size: .78rem;
+                    }
+
+                    i {
+                        font-size: 12px;
+                    }
+                }
+            }
+
+            .container-reserva {
+                .elemento-reserva {
+                    h2 {
+                        font-size: 1rem;
+                    }
+                }
+
+                .formulario-de-reserva {
+                    gap: 7px;
+
+                    .input-box>input {
+                        height: 30px;
+
+                        &::placeholder {
+                            font-size: 9.5px;
+                            letter-spacing: 0.2px;
+                        }
+                    }
+
+                    i {
+                        font-size: 9px;
+                        top: 45%;
+                    }
+
+                    button {
+                        padding: 4px;
+                        font-size: .7rem;
+                    }
+                }
+            }
+        }
+
+        .footer-contact {
+
+            .copy {
+                font-size: .6rem;
+            }
+        }
+    }
+
+    //Nosotros
+    .acerca-de-nosotros {
+        .presentacion-de-la-cafeteria {
+
+            h1 {
+                font-size: 1.8rem;
+            }
+
+            p {
+                font-size: .77rem;
+            }
+
+            .granos-de-cafe-dispersos {
+                bottom: -40px;
+                max-width: 200px;
+            }
+        }
+    }
+
+    .un-poco-mas {
+        .un-poco-mas-de-info {
+
+            h2 {
+                font-size: 1.02rem;
+            }
+
+            p {
+                font-size: .77rem;
+            }
+        }
+    }
+
+    .container-gallery {
+        margin-block-start: 1.5rem;
+        padding: 10px 0;
+
+        h2 {
+            font-size: 1.02rem;
+        }
+    }
+
+    .info-cafeteria {
+        h2 {
+            font-size: 1.02rem;
+            margin-block: 1rem;
+        }
+
+        .container-cards {
+            .card-content {
+                height: 170px;
+                width: 200px;
+                margin: 10px;
+
+                h4 {
+                    font-size: .75rem;
+                    padding: 5px;
+                }
+
+                p {
+                    font-size: 0.65rem;
+                }
+            }
+        }
+    }
+
+    .container-nosotros {
+        .content-despedida {
+            justify-content: center;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .footer-sobre-nosotros {
+        padding: 10px;
+
+        .menu-footer-nosotros {
+            a {
+                font-size: .8rem;
+            }
+        }
+
+        .copy-nos {
+            font-size: .75rem;
+            text-align: center;
+        }
+    }
+
+
+    //Nuestro Trabajo
+    .bg-color-work {
+        .content-body-work {
+            .header-container-work {
+                .nav-nosotros {
+                    .nav__container {
+                        .nav__menu {
+                            gap: 2rem;
+
+                            a {
+                                font-size: 13px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hero-section {
+                height: 100vh;
+                align-items: center;
+
+                .hero-content {
+                    h1 {
+                        font-size: 1.7rem;
+                    }
+
+                    p {
+                        font-size: 0.8rem;
+                        max-width: 300px;
+                    }
+
+                    button {
+                        font-size: .75rem;
+                        width: 80px;
+                    }
+                }
+            }
+        }
+
+        .margin-container {
+            h2 {
+                font-size: 1rem;
+                margin: 0.8rem 0;
+            }
+
+            .content-introduccion {
+                padding: 0 10px;
+                margin-block-end: 2rem;
+
+                p {
+                    @include parrafos (#747373, 400, 20px, 11px);
+                }
+            }
+
+            .process-elements-cultivo {
+                padding: 0 10px;
+                margin-block-end: 2rem;
+
+                h2 {
+                    font-size: 1rem;
+                    margin: 0.8rem 0;
+                }
+
+                p {
+                    @include parrafos (#747373, 400, 20px, 11px);
+                }
+            }
+
+            .process-elements-recoleccion {
+                padding: 0 10px;
+                margin-block-end: 3rem;
+
+                .order-elements-dos {
+
+                    p {
+                        @include parrafos (#747373, 400, 20px, 11px);
+                    }
+
+                    h2 {
+                        font-size: 1rem;
+                        margin: 0.8rem 0;
+                    }
+
+                    h3 {
+                        font-size: .9rem;
+                        margin-block-start: 2rem;
+                    }
+
+                    .paragraphs-recoleccion-uno {
+                        margin-block: 1rem;
+                    }
+
+                    .order__recoleccion-img {
+                        img {
+                            width: 200px;
+                            height: 133px;
+                        }
+                    }
+                }
+            }
+
+            .order-elements-tres {
+                padding: 0 10px;
+                margin-block-end: 2rem;
+
+                p {
+                    @include parrafos (#747373, 400, 20px, 11px);
+                }
+            }
+
+            .process-elements-postcosecha {
+                padding: 0 10px;
+                margin-block-end: 2rem;
+
+                p {
+                    @include parrafos (#747373, 400, 20px, 11px);
+                }
+
+                .grid-process {
+                    padding: 20px 0;
+
+                    img {
+                        width: 200px;
+                        height: auto;
+                    }
+
+                    /* Proceso uno */
+                    .p-process-uno {
+                        @include parrafos (#747373, 400, 20px, 11px);
+                    }
+
+                    /* Proceso dos */
+                    .p-process-dos {
+                        @include parrafos (#747373, 400, 20px, 11px);
+                    }
+                }
+            }
+
+            .process-elements-torrefaccion {
+                padding: 20px;
+
+                p {
+                    @include parrafos (#747373, 400, 20px, 11px);
+                    margin-block-end: 2rem;
+                }
+
+                .img-ultimo-process {
+
+                    img {
+                        width: 250px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .container-blog {
+            .card__article {
+                .card__img {
+                    width: 200px;
+                }
+
+                .card__data {
+                    width: 180px;
+                    height: 120px;
+                    padding: 0 .5rem;
+
+                    span {
+                        font-size: .55rem;
+                        margin-bottom: 0.5rem;
+                    }
+
+                    h2 {
+                        font-size: .7rem;
+                        margin-bottom: 0.6rem;
+                    }
+
+                    a {
+                        font-size: 0.6rem;
+                    }
+                }
+            }
+        }
+
+        .footer-nuestro-trabajo {
+            padding: 10px;
+
+            .social-icon {
+                li {
+                    a {
+                        font-size: 1rem;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .list-links-trabajo {
+                gap: .5rem;
+                margin-block-start: 1rem;
+
+                li {
+                    a {
+                        font-size: .7rem;
+                    }
+                }
+            }
+
+            .copy {
+                margin: 10px 2.5px 0 2.5px;
+                font-size: .7rem;
+            }
+        }
+    }
+
+    //Eventos
+
+    .body-event {
+        .event {
+            .event-card {
+                width: 300px;
+            }
+        }
+    }
+}

@@ -1,0 +1,790 @@
+@media (max-width:425px) {
+
+    //Index
+    .header-principal .nav-principal {
+        padding: 5px 10px;
+
+        .logo {
+            img {
+                width: 45px;
+                height: 45px;
+            }
+        }
+
+        .navbar-principal {
+            top: 270%;
+            width: 60vw;
+        }
+    }
+
+    .main-index .article-index {
+        .heading {
+            h2 {
+                font-size: 1.3rem;
+            }
+        }
+
+        .banner-principal {
+            min-height: 400px;
+            margin-top: 0 !important;
+
+            .banner-img {
+                max-width: 270px;
+            }
+
+            .content-banner {
+                h1 {
+                    font-size: 2rem;
+                }
+
+                p {
+                    max-width: 238px;
+                    font-size: .9rem;
+                }
+
+                .boton-ir {
+                    padding: 3px;
+                    max-width: 120px;
+
+                    span {
+                        font-size: 12px;
+                    }
+
+                    i {
+                        font-size: 15px;
+                        padding: 3px;
+                    }
+                }
+            }
+        }
+
+        .servicios .service-content {
+            margin-block: 3rem 0;
+            grid-template-columns: repeat(2, 160px);
+            row-gap: 1rem;
+
+            .ser-box {
+                padding: 10px;
+                row-gap: .5rem;
+                border-radius: 1rem;
+
+                img {
+                    width: 45px;
+                    height: 45px;
+                }
+
+                p {
+                    font-size: 12px;
+                }
+            }
+        }
+
+        .products {
+
+            p {
+                font-size: .88rem;
+                margin-block: 1rem;
+            }
+
+            .products-content {
+                grid-template-columns: repeat(2, 160px);
+                row-gap: 1.5rem;
+                column-gap: 2rem;
+                padding: 35px;
+
+                .product-card {
+                    padding: 5px;
+
+                    img {
+                        width: 75px;
+                        height: 75px;
+                    }
+
+                    h2 {
+                        font-size: .88rem;
+                    }
+                }
+            }
+        }
+
+        .team .team-content {
+            grid-template-columns: repeat(auto-fit, minmax(100px, auto));
+            gap: .5rem;
+
+            .team-box {
+                img {
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .review .review-box {
+            h2 {
+                font-size: .88rem;
+            }
+
+            img {
+                width: 65px;
+                height: 65px;
+                border: 3px solid #fff8f7;
+            }
+
+            p {
+                font-size: .85rem;
+            }
+        }
+
+        .info-adicional .box-container {
+            grid-template-columns: 200px;
+            justify-content: center;
+
+            .info-ad {
+
+                h3 {
+                    font-size: .95rem;
+                }
+
+                p {
+                    font-size: 0.8rem;
+                    line-height: 1.7;
+                }
+
+                ion-icon {
+                    font-size: 1.6rem;
+                }
+            }
+        }
+
+        .info-adicional .img-coffee {
+            top: -80px;
+            max-width: 230px;
+        }
+
+        .banner-secundario-coffee .banner-secundario-content {
+            margin: 1.5rem;
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: .82rem;
+                margin-block: 1.5rem;
+            }
+        }
+
+        .btn-1 .btn {
+            font-size: 11.5px;
+            font-weight: 400;
+            padding: 0.4em 0.8em;
+        }
+    }
+
+    .footer-bg .footer {
+        grid-template-columns: repeat(1, auto);
+
+        .footer-col {
+            h3 {
+                font-size: .92rem;
+            }
+
+            a {
+                font-size: .78rem;
+            }
+
+            p {
+                font-size: .78rem;
+            }
+        }
+
+        .footer-col .foot-social {
+            display: block;
+
+            a {
+                margin: 0 .3rem;
+            }
+        }
+    }
+
+    //Contacto
+
+    .bg-body-contact {
+        .container-header-contact {
+            .nav-contact {
+                .sidebar {
+                    width: 50%;
+
+                    a {
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+
+        .nuestro-contact {
+            margin: 20px auto;
+
+            .box-info-contact {
+                h1 {
+                    font-size: 1.3rem;
+                    padding-block: 20px;
+                }
+
+                .data {
+                    gap: 10px;
+
+                    p {
+                        font-size: .85rem;
+                    }
+                }
+            }
+
+            .container-reserva {
+
+                .elemento-reserva {
+
+                    h2 {
+                        font-size: 1.1rem;
+                    }
+                }
+            }
+        }
+
+        .footer-contact {
+            padding: 15px;
+
+            .copy {
+                font-size: .7rem;
+            }
+        }
+    }
+
+    //Nosotros
+    .order-elements-nosotros {
+        .nav-nosotros {
+            .logo-cafeteria {
+                width: 40px;
+                height: 40px;
+            }
+
+            .nav__container {
+                .nav__menu {
+                    .nav__item {
+                        font-size: .9rem;
+                    }
+                }
+            }
+        }
+    }
+
+    .acerca-de-nosotros {
+        .presentacion-de-la-cafeteria {
+            height: 80vh;
+            grid-template-columns: 1fr;
+            padding: 0 10px;
+
+            h1 {
+                font-size: 2.2rem;
+                letter-spacing: 1px;
+                align-items: center;
+            }
+
+            p {
+                font-size: .85rem;
+            }
+
+            .granos-de-cafe-dispersos {
+                bottom: -70px;
+                right: 0;
+                max-width: 250px;
+            }
+        }
+    }
+
+    .un-poco-mas {
+        .un-poco-mas-de-info {
+            height: 80vh;
+            grid-template-columns: 1fr;
+            padding: 0 10px;
+
+            h2 {
+                font-size: 1.3rem;
+            }
+
+            p {
+                font-size: .85rem;
+            }
+
+            .p-info-uno {
+                grid-column: 1 / 5;
+            }
+
+            .p-info-tres {
+                grid-column: 1 / 5;
+                align-items: start;
+            }
+        }
+    }
+
+    .container-gallery {
+        margin-block-start: 3rem;
+        padding: 20px 0;
+
+        h2 {
+            font-size: 1.3rem;
+        }
+    }
+
+    .gallery {
+        grid-template-rows: repeat(2, 10rem);
+        grid-gap: 0rem;
+        column-gap: 0rem;
+
+        .galeria-img-3 {
+            grid-column: 1/5;
+            grid-row: 1/2;
+        }
+    }
+
+    .info-cafeteria {
+        h2 {
+            font-size: 1.3rem;
+            margin-block: 1.5rem;
+        }
+
+        .container-cards {
+            margin-block-end: 2rem;
+            gap: 0;
+
+            .card-content {
+                height: 200px;
+                width: 200px;
+                margin: 10px;
+
+                img {
+                    margin-top: 15px;
+                    width: 40px;
+                    height: 40px;
+                }
+
+                h4 {
+                    font-size: .9rem;
+                    padding: 10px;
+                }
+
+                p {
+                    font-size: 0.75rem;
+                    padding: .2rem 0;
+                }
+            }
+        }
+    }
+
+    .container-nosotros {
+        height: 80vh;
+
+        .content-despedida {
+            padding: 0 10px;
+            justify-content: start;
+            margin-block-start: 3rem;
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            p {
+                font-size: 1.1rem;
+            }
+        }
+    }
+
+    .footer-sobre-nosotros {
+        padding: 15px;
+
+        .menu-footer-nosotros {
+            a {
+                font-size: .9rem;
+            }
+        }
+
+        .copy-nos {
+            font-size: .85rem;
+            text-align: center;
+        }
+    }
+
+    //Nuestro trabajo
+    .bg-color-work {
+        .content-body-work {
+            .header-container-work {
+                padding: 0;
+                background-color: #474443;
+
+                .nav-nosotros {
+                    .logo-cafeteria {
+                        width: 40px;
+                        height: 40px;
+                    }
+
+                    .nav__container {
+                        .nav__menu {
+                            gap: 2.5rem;
+                            top: 80px;
+
+                            a {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .hero-section {
+                .hero-content {
+                    h1 {
+                        font-size: 2rem;
+                        max-width: 400px;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                        max-width: 310px;
+                    }
+
+                    button {
+                        font-size: .8rem;
+                        width: 100px;
+                    }
+                }
+            }
+        }
+
+        .margin-container {
+            padding: 0;
+
+            h2 {
+                font-size: 1.2rem;
+                margin: 1rem 0;
+            }
+
+            .content-introduccion {
+                padding: 0 20px;
+                margin-block-end: 2rem;
+
+                p {
+                    @include parrafos (#747373, 400, 24px, 13px);
+                }
+            }
+
+            .process-elements-cultivo {
+                padding: 0 20px;
+                margin-block-end: 2rem;
+
+                h2 {
+                    font-size: 1.2rem;
+                    margin: 1rem 0;
+                }
+
+                p {
+                    @include parrafos (#747373, 400, 24px, 13px);
+                }
+
+                p:nth-child(3) {
+                    margin-top: 1rem;
+                }
+            }
+
+            .process-elements-recoleccion {
+                padding: 0 20px;
+                margin-block-end: 3rem;
+
+                .order-elements-dos {
+
+                    p {
+                        @include parrafos (#747373, 400, 24px, 13px);
+                    }
+
+                    h2 {
+                        font-size: 1.2rem;
+                        margin: 1rem 0;
+                    }
+
+                    h3 {
+                        font-size: 1.1rem;
+                        margin-block-start: 2.5rem;
+                    }
+
+                    .paragraphs-recoleccion-uno {
+                        margin-block: 1rem;
+                    }
+
+                    .order__recoleccion-img {
+                        img {
+                            width: 300px;
+                            height: 200px;
+                        }
+                    }
+                }
+            }
+
+            .order-elements-tres {
+                padding: 0 20px;
+                margin-block-end: 3rem;
+
+                img {
+                    display: none
+                }
+
+                p {
+                    @include parrafos (#747373, 400, 24px, 12.5px);
+                }
+            }
+
+            .process-elements-postcosecha {
+                padding: 0 20px;
+                margin-block-end: 3rem;
+
+                p {
+                    @include parrafos (#747373, 400, 24px, 13px);
+
+                    span {
+                        font-weight: map-get($grosorfont, 600);
+                    }
+                }
+
+                .grid-process {
+                    @include flexible1(flex, column, center, center, nowrap);
+                    padding: 40px 0;
+
+                    img {
+                        width: 250px;
+                        height: auto;
+                    }
+
+                    /* Proceso uno */
+                    .p-process-uno {
+                        @include parrafos (#747373, 400, 25px, 13px);
+                    }
+
+                    /* Proceso dos */
+                    .p-process-dos {
+                        @include parrafos (#747373, 400, 25px, 13px);
+                    }
+                }
+            }
+
+            .process-elements-torrefaccion {
+                padding: 20px;
+
+                p {
+                    @include parrafos (#747373, 400, 24px, 13px);
+                    margin-block-end: 2rem;
+                }
+
+                .img-ultimo-process {
+
+                    img {
+                        width: 300px;
+                        height: auto;
+                    }
+                }
+            }
+        }
+
+        .container-blog {
+            padding-block: 2rem;
+
+            .elements-blog {
+
+                h2 {
+                    font-size: 1.2rem;
+                    margin: 0;
+                }
+            }
+
+            .card__container {
+                gap: 3rem;
+                padding-block: 2rem;
+            }
+
+            .card__article {
+                .card__img {
+                    width: 250px;
+                    border-radius: 1.5rem;
+                }
+
+                .card__data {
+                    width: 220px;
+                    height: 150px;
+                    padding: 0 1rem;
+
+                    span {
+                        font-size: .7rem;
+                        margin-bottom: 0.65rem;
+                    }
+
+                    h2 {
+                        font-size: .8rem;
+                        margin-bottom: 0.65rem;
+                    }
+
+                    a {
+                        font-size: 0.7rem;
+                    }
+                }
+            }
+        }
+
+        .footer-nuestro-trabajo {
+            padding: 15px;
+
+            .social-icon {
+                li {
+                    a {
+                        font-size: 1.2rem;
+                        margin: 0;
+                    }
+                }
+            }
+
+            .list-links-trabajo {
+                gap: 1rem;
+
+                li {
+                    a {
+                        font-size: .8rem;
+                    }
+                }
+            }
+
+            .copy {
+                margin: 20px 5px 0 5px;
+                font-size: .77rem;
+            }
+        }
+    }
+
+    //Eventos
+    .body-event {
+        .header-event {
+            .header__nav {
+                padding: 0;
+            }
+        }
+
+        .event {
+            .section-subtitle {
+                font-size: 1rem;
+                letter-spacing: 0.2em;
+            }
+
+            .section-title {
+                font-size: 1.05rem;
+            }
+
+            .event-card {
+                width: 400px;
+                margin-block-end: 1.5rem;
+
+                .card-banner {
+                    .publish-date {
+                        font-size: .7rem;
+                        padding: 2px;
+                        top: 10px;
+                        left: 15px;
+                    }
+                }
+
+                .card-content {
+                    padding: 10px 0;
+
+                    .card-title {
+                        font-size: .8rem;
+                        margin: 5px;
+                    }
+
+                    .card-subtitle {
+                        font-size: .9rem;
+                        letter-spacing: 0.2em;
+                    }
+                }
+            }
+        }
+
+        .testi {
+            margin-bottom: 2rem;
+
+            .wrapper {
+                margin-block: 25px;
+            }
+
+            .quote {
+                font-size: 3rem;
+            }
+
+            .testi-text {
+                margin: 0;
+                line-height: 1.6;
+                font-size: .9rem;
+            }
+
+            .profile {
+                .img {
+                    margin-block-end: 10px;
+                    width: 45px;
+                    height: 45px;
+                }
+
+                .profile-name {
+                    font-size: .9rem;
+                    letter-spacing: 0.1em;
+                }
+            }
+        }
+
+        .footer-event {
+            padding: 10px;
+
+            .footer-brand {
+                .girasol-logo-footer {
+                    margin-block-end: 10px;
+
+                    img {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+
+                .wrapper {
+                    margin-block: 20px;
+                }
+
+                :is(.body-4, .label-1) {
+                    font-size: .8rem;
+                }
+            }
+
+            .order-list-footer {
+                display: grid;
+                grid-template-columns: 1fr;
+                grid-gap: 1.5rem;
+                padding-block-start: 2rem;
+
+                .footer-list {
+                    align-items: flex-start;
+                    gap: 0.5rem;
+
+                    .footer-link {
+                        font-size: .8rem;
+                    }
+                }
+            }
+
+            .footer-bottom {
+                .typing {
+                    font-size: .9rem;
+                }
+            }
+        }
+    }
+}

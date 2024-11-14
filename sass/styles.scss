@@ -1,0 +1,35 @@
+@import "./utilities/variables";
+@import "./utilities/maps";
+@import "./utilities/mixins";
+
+@import "./base/reset";
+@import "./base/tipografias";
+
+@import "./components/bootstrap";
+@import "./components/animaciones";
+
+@import "./layout/desktop/index";
+@import "./layout/desktop/contacto";
+@import "./layout/desktop/eventos";
+@import "./layout/desktop/trabajo";
+@import "./layout/desktop/nosotros";
+
+@media (max-width:1024px) {
+    @import "./layout/1024/media1024";
+}
+
+@media (max-width:768px) {
+    @import "./layout/768/media768";
+}
+
+@media (max-width:425px) {
+    @import "./layout/425/media425";
+}
+
+@media (max-width:375px) {
+    @import "./layout/375/media375";
+}
+
+@media (max-width:320px) {
+    @import "./layout/320/media320";
+}
